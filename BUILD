@@ -1,10 +1,8 @@
 langs("Python")
 
-py_binary(
+py_binary (
   name = "msdocs",
-  srcs = [
-    "msdocs.py",
-  ],
+  srcs = [ "msdocs.py" ],
   deps = [
     "//impulse/args:args",
     "//scrapers/base:html",
