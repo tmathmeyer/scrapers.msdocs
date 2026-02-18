@@ -1,5 +1,3 @@
-langs("Python")
-
 py_binary (
   name = "msdocs",
   srcs = [ "msdocs.py" ],
